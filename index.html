@@ -12,10 +12,15 @@
       margin: 0;
       padding: 0;
     }
-    .logo {
+    .logo-container {
+      display: flex;
+      justify-content: center;
+      align-items: center;
       margin-top: 60px;
+      flex-wrap: wrap;
+      gap: 20px;
     }
-    img {
+    .logo-container img {
       max-width: 400px;
       width: 80%;
       height: auto;
@@ -31,8 +36,9 @@
   </style>
 </head>
 <body>
-  <div class="logo">
+  <div class="logo-container">
     <img src="ApexCreations Logo.png" alt="Apex Creations Logo">
+    <img src="MoreComingSoon.png" alt="More Coming Soon">
   </div>
   <h1>Welcome to Apex Creations</h1>
   <p>Etch. Print. Create.</p>
